@@ -32,7 +32,7 @@ const Features = () => {
       icon: <Captions className="h-6 w-6 text-white" />,
       color: 'bg-learnmate-teal',
       title: 'Real-time Captions',
-      description: 'Generate accurate captions for videos and live presentations, ensuring deaf and hard-of-hearing students don't miss important information.'
+      description: 'Generate accurate captions for videos and live presentations, ensuring deaf and hard-of-hearing students don\'t miss important information.'
     },
     {
       icon: <AccessibilityIcon className="h-6 w-6 text-white" />,

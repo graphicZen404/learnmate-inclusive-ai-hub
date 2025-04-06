@@ -7,7 +7,7 @@ const HowItWorks = () => {
     {
       icon: <ClipboardList className="h-8 w-8 text-learnmate-purple" />,
       title: 'Assessment',
-      description: 'Our AI evaluates each student's learning profile, identifying strengths, needs, and preferred learning styles through interactive assessments.'
+      description: 'Our AI evaluates each student\'s learning profile, identifying strengths, needs, and preferred learning styles through interactive assessments.'
     },
     {
       icon: <Settings className="h-8 w-8 text-learnmate-blue" />,
