@@ -296,8 +296,9 @@ const Demo = () => {
         </div>
       </div>
       
-      {/* Demo-specific styled elements that would normally be in CSS file */}
-      <style jsx>{`
+      {/* Demo-specific styled elements - using standard style element */}
+      <style>
+        {`
         .demo-visual-aid {
           background: linear-gradient(135deg, #f0f9ff, #e8f5fe);
           border-radius: 8px;
@@ -472,7 +473,8 @@ const Demo = () => {
         .dark .step-text {
           color: #e2e8f0;
         }
-      `}</style>
+        `}
+      </style>
     </section>
   );
 };
