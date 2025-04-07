@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Book } from 'lucide-react';
+import { Menu, X, Book, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -30,6 +30,9 @@ const Header = () => {
           </Link>
           <Link to="/demo" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium">
             Try Demo
+          </Link>
+          <Link to="/download" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium flex items-center">
+            <Download className="h-4 w-4 mr-1" /> Download
           </Link>
           <Link to="/standalone" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium">
             Get Standalone
@@ -73,6 +76,9 @@ const Header = () => {
             </Link>
             <Link to="/demo" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>
               Try Demo
+            </Link>
+            <Link to="/download" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors flex items-center" onClick={() => setMobileMenuOpen(false)}>
+              <Download className="h-4 w-4 mr-2" /> Download
             </Link>
             <Link to="/standalone" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>
               Get Standalone
