@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
+import DownloadHelper from '../components/DownloadHelper';
 
 const Index = () => {
   // Update document title
@@ -21,6 +22,9 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <div className="container mx-auto px-4 py-4 flex justify-end">
+          <DownloadHelper />
+        </div>
         <Features />
         <HowItWorks />
         <Demo />
