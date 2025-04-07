@@ -31,6 +31,9 @@ const Header = () => {
           <Link to="/demo" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium">
             Try Demo
           </Link>
+          <Link to="/standalone" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium">
+            Get Standalone
+          </Link>
           <Link to="/contact" className="text-gray-700 hover:text-learnmate-purple transition-colors font-medium">
             Contact
           </Link>
@@ -70,6 +73,9 @@ const Header = () => {
             </Link>
             <Link to="/demo" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>
               Try Demo
+            </Link>
+            <Link to="/standalone" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>
+              Get Standalone
             </Link>
             <Link to="/contact" className="py-2 text-gray-700 hover:text-learnmate-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>
               Contact
